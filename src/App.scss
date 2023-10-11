@@ -1,0 +1,24 @@
+.hero-section {
+    
+}
+
+.section-wrapper {
+    padding: 84px 0;
+    .section-header {
+        margin-bottom: 54px;
+        .subtitle {
+            margin-bottom: 46px;
+            display: block;
+            &:before {
+                @apply inline-block content-[""] h-1 w-10 align-middle bg-accenture-400;
+            }
+        }
+    }
+    .section-content {
+        
+    }
+}
+
+.services {
+    @apply grid;
+}
