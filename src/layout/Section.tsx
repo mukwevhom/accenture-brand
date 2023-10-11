@@ -1,4 +1,4 @@
-interface Props {
+type Props = {
     id?: string;
     title?: string;
     subtitle?: string;
@@ -17,7 +17,7 @@ export default function Section({
                 {(title || subtitle) && (
                     <div className='section-header'>
                         { subtitle && <span className='subtitle text-2xl font-normal'>{subtitle}</span>}
-                        <h2 className='font-bold text-5xl leading-snug'></h2>
+                        { title && <h2 className='font-bold text-5xl leading-snug'>{title}</h2>}
                     </div>
                 )}
                 {content && (
