@@ -14,7 +14,7 @@ export default function ServicesSection () {
             },
             {
                 icon: appDevIcon,
-                title: "User experience &amp; design",
+                title: "User experience & design",
                 desc: "Our complete web design services will bring your ideas to life and provide you with a sleek, high-performing product that elevates your business."
             },
             {
@@ -32,7 +32,7 @@ export default function ServicesSection () {
         return (
             <div className="services">
                 {servicesList.map((service, idx) => (
-                    <div className="" key={`service-${idx}`}>
+                    <div className="service-item" key={`service-${idx}`}>
                         <img src={service.icon} alt={service.title} />
                         <h3>{service.title}</h3>
                         <p>{service.desc}</p>

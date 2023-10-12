@@ -14,7 +14,7 @@ export default function Footer () {
                     </div>
                 </div>
                 <div className="quick-links">
-                    <div className="">
+                    <div>
                         <ul>
                             <li>
                                 <a href="#">Terms of service</a>
@@ -27,7 +27,7 @@ export default function Footer () {
                             </li>
                         </ul>
                     </div>
-                    <div className="">
+                    <div>
                         <ul>
                             <li>
                                 <a href="#">Facebook</a>
@@ -40,7 +40,7 @@ export default function Footer () {
                             </li>
                         </ul>
                     </div>
-                    <div className="">
+                    <div>
                         <ul>
                             <li>
                                 <a href="#">Github</a>
@@ -53,7 +53,7 @@ export default function Footer () {
                             </li>
                         </ul>
                     </div>
-                    <div className="">
+                    <div>
                         <ul>
                             <li>
                                 <a href="#">Youtube</a>
@@ -66,7 +66,7 @@ export default function Footer () {
                             </li>
                         </ul>
                     </div>
-                    <div className="">
+                    <div>
                         <ul>
                             <li>
                                 <a href="#">Explore open jobs</a>

@@ -20,14 +20,14 @@ function Content () {
         fetchCaseStudies()
     }, [])
 
-
-
     return (
-        <div>
+        <div className="case-studies">
             { caseStudies.map((caseStudy, idx) => (
-                <a className="block" href="#" key={`case-study-${idx}`} style={{backgroundImage: `url(${caseStudy?.imageUrl})`}}>
-                    <h3>{caseStudy?.title}</h3>
-                    <p>{caseStudy?.description}</p>
+                <a className="case-study-item" href="#" key={`case-study-${idx}`} style={{backgroundImage: `url(${caseStudy?.imageUrl})`}}>
+                    <div className="case-study-content">
+                        <h3>{caseStudy?.title}</h3>
+                        <p>{caseStudy?.description}</p>
+                    </div>
                 </a>
             ))}
         </div>

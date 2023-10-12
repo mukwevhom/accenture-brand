@@ -16,8 +16,8 @@ export default function Section({
             <div className='container'>
                 {(title || subtitle) && (
                     <div className='section-header'>
-                        { subtitle && <span className='subtitle text-2xl font-normal'>{subtitle}</span>}
-                        { title && <h2 className='font-bold text-5xl leading-snug'>{title}</h2>}
+                        { subtitle && <span className='subtitle'>{subtitle}</span>}
+                        { title && <h2 className='title'>{title}</h2>}
                     </div>
                 )}
                 {content && (

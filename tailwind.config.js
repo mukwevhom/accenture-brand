@@ -7,6 +7,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+			xs: "475px",
+			sm: "576px",
+			md: "768px",
+			lg: "992px",
+			xl: "1280px",
+			"2xl": "1400px",
+		},
     container: {
       center: true,
       padding: '1.5rem'
