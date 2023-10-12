@@ -23,3 +23,36 @@
 .services {
     @apply grid;
 }
+
+.footer {
+    @apply bg-accenture-900 text-white py-16;
+    .quick-links {
+        @apply grid grid-cols-5 gap-14;
+        div {
+            &:last-of-type {
+                ul {
+                    @apply flex flex-col justify-between h-full
+                }
+            }
+        }
+    }
+}
+
+.contact {
+    @apply flex mb-24;
+    .section-header {
+        @apply flex-1;
+        .subtitle {
+            @apply block text-xl mb-9;
+            &:before {
+                @apply inline-block content-[""] h-1 w-10 align-middle bg-accenture-400 mr-5;
+            }
+        }
+        .title {
+            @apply font-bold text-[40px] leading-snug;
+        }
+    }
+    .contact-info {
+        @apply self-end;
+    }
+}

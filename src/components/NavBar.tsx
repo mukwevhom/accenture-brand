@@ -2,7 +2,7 @@ import logo from '../assets/logo.svg'
 
 export default function NavBar() {
     return (
-        <header className='bg-accenture-900 py-2'>
+        <header className='bg-accenture-700 py-2'>
             <div className='container flex items-center justify-between'>
             <a className='block' href='#'>
                 <img src={logo} alt='Accenture Brand' />

@@ -4,6 +4,7 @@ import './App.scss'
 import ServicesSection from "./components/ServicesSection";
 import CaseStudiesSection from "./components/CaseStudiesSection";
 import BrandsSection from "./components/BrandsSection";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 			<ServicesSection />
 			<CaseStudiesSection />
 			<BrandsSection />
+			<Footer />
 		</>
 	)
 }
