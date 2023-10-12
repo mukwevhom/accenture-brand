@@ -68,8 +68,7 @@
     }
 }
 
-.case-studies.blaze-track {
-    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-0 md:gap-10 grid-flow-col overflow-auto;
+.case-studies.keen-slider {
     .case-study-item {
         @apply aspect-square text-white relative bg-cover bg-center w-auto;
         &::before {
@@ -90,6 +89,25 @@
     }
 }
 
+.navigation-wrapper {
+    @apply relative;
+    .arrow {
+        @apply w-7 h-7 absolute top-1/2 -translate-y-1/2 fill-white cursor-pointer;
+    }
+      
+    .arrow--left {
+        @apply left-2;
+    }
+      
+    .arrow--right {
+        @apply left-auto right-2;
+    }
+      
+    .arrow--disabled {
+        fill: rgba(255, 255, 255, 0.5);
+    }
+}
+
 .brands {
     @apply grid grid-cols-3 md:grid-cols-5 gap-10 md:gap-14;
     .brand-item {
@@ -98,10 +116,6 @@
             @apply mx-auto aspect-auto;
         }
     }
-}
-
-.blaze-slider {
-    --slides-to-show: 3;
 }
 
 .services {
@@ -147,11 +161,5 @@
     }
     .contact-info {
         @apply md:self-end;
-    }
-}
-
-@media (max-width: 575px) {
-    .blaze-slider {
-        --slides-to-show: 1;
     }
 }
