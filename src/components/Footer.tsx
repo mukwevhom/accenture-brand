@@ -5,12 +5,12 @@ export default function Footer () {
                 <div className="contact">
                     <div className="section-header">
                         <span className='subtitle'>Contact Us</span>
-                        <h2 className='font-bold text-5xl leading-snug'>Have a project in mind?<br/>Let's make it happen</h2>
+                        <h2 className='title'>Have a project in mind?<br/>Let's make it happen</h2>
                     </div>
                     <div className="contact-info">
                         <p>22 Street Name, Suburb, 8000,<br /> Cape Town, South Africa</p>
                         <a href="tel:+27214310001" className="block">+27 21 431 0001</a>
-                        <a href="mailto:enquirie@website.co.za" className="block">enquirie@website.co.za</a>
+                        <a href="mailto:enquirie@website.co.za" className="block underline">enquirie@website.co.za</a>
                     </div>
                 </div>
                 <div className="quick-links">
