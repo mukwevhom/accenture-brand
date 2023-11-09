@@ -84,7 +84,7 @@ export default function BrandsSection () {
             <div className="brands">
                 { brands.map((brand, idx) => (
                     <div className="brand-item" key={`brand-${idx}`}>
-                        <img src={brand.logo} alt={brand.name} />
+                        <img src={brand.logo} alt={brand.name} loading="lazy"/>
                     </div>
                 ) )}
             </div>

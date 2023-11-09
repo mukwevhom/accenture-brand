@@ -33,7 +33,7 @@ export default function ServicesSection () {
             <div className="services">
                 {servicesList.map((service, idx) => (
                     <div className="service-item" key={`service-${idx}`}>
-                        <img src={service.icon} alt={service.title} />
+                        <img src={service.icon} alt={service.title} width={64} height={64} loading="lazy" />
                         <h3>{service.title}</h3>
                         <p>{service.desc}</p>
                     </div>
