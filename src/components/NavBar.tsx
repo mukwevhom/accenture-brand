@@ -31,7 +31,7 @@ export default function NavBar() {
         <header className='navbar'>
             <div className='container'>
                 <a className='block' href='#'>
-                    <img src={logo} alt='Accenture Brand' />
+                    <img src={logo} alt='Accenture Brand' width={100} height={32} />
                 </a>
                 <nav className='nav-menu'>
                     <ul>
